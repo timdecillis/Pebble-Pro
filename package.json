@@ -6,12 +6,15 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
     "react": "^17",
-    "react-dom": "^17",
+    "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
-    "dev": "tsc --watch --preserveWatchOutput"
+    "dev": "tsc --watch --preserveWatchOutput",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,7 +33,7 @@
   },
   "devDependencies": {
     "prettier": "^2.0.2",
-    "typescript": "5.2.2"
+    "typescript": "3.2.1"
   },
   "msw": {
     "workerDirectory": "public"
