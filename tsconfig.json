@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "outDir": "dist", // where to output the TS files
+    "target": "ES2023"
+  },
+  "include": ["src"] // which files to compile
+}
